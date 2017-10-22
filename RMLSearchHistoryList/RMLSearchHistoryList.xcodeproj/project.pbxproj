@@ -16,6 +16,7 @@
 		322556AD1F94DBDA00B46B9F /* RMLSearchHistoryListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 322556AC1F94DBDA00B46B9F /* RMLSearchHistoryListTests.m */; };
 		322556B81F94DBDB00B46B9F /* RMLSearchHistoryListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 322556B71F94DBDB00B46B9F /* RMLSearchHistoryListUITests.m */; };
 		322556C71F94DD5F00B46B9F /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 322556C61F94DD5F00B46B9F /* SearchViewController.m */; };
+		324910E81F9CE9F3008A2CAF /* SearchCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 324910E71F9CE9F3008A2CAF /* SearchCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		322556B91F94DBDB00B46B9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		322556C51F94DD5F00B46B9F /* SearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		322556C61F94DD5F00B46B9F /* SearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		324910E61F9CE9F3008A2CAF /* SearchCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchCollectionViewCell.h; sourceTree = "<group>"; };
+		324910E71F9CE9F3008A2CAF /* SearchCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				322556971F94DBDA00B46B9F /* ViewController.m */,
 				322556C51F94DD5F00B46B9F /* SearchViewController.h */,
 				322556C61F94DD5F00B46B9F /* SearchViewController.m */,
+				324910E61F9CE9F3008A2CAF /* SearchCollectionViewCell.h */,
+				324910E71F9CE9F3008A2CAF /* SearchCollectionViewCell.m */,
 				322556991F94DBDA00B46B9F /* Main.storyboard */,
 				3225569C1F94DBDA00B46B9F /* Assets.xcassets */,
 				3225569E1F94DBDA00B46B9F /* LaunchScreen.storyboard */,
@@ -272,6 +277,7 @@
 			files = (
 				322556981F94DBDA00B46B9F /* ViewController.m in Sources */,
 				322556A31F94DBDA00B46B9F /* main.m in Sources */,
+				324910E81F9CE9F3008A2CAF /* SearchCollectionViewCell.m in Sources */,
 				322556C71F94DD5F00B46B9F /* SearchViewController.m in Sources */,
 				322556951F94DBDA00B46B9F /* AppDelegate.m in Sources */,
 			);
